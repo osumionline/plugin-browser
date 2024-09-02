@@ -1,5 +1,5 @@
 {
-  "name": "osumionline/plugin-otoken",
+  "name": "osumionline/plugin-browser",
   "description": "Plugin OBrowser para Osumi Framework",
   "version": "3.0.0",
   "type": "library",
