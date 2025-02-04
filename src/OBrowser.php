@@ -770,11 +770,11 @@ class OBrowser {
 	 *
 	 * @param string $pv_type Type of operation (get/set)
 	 *
-	 * @param int $pv_value Default Number to be set
+	 * @param int | null $pv_value Default Number to be set
 	 *
 	 * @return int Returns slice count value
 	 */
-  public function get_set_count($pv_type, $pv_value = null): ?int {
+  public function get_set_count(string $pv_type, int | null $pv_value = null): ?int {
   	static $slice_increment;
   	$return_value = '';
   	switch ($pv_type) {
